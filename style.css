@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+section{
+  height: 100vh;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+.container{
+  position: relative;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  color: azure;
+
+}
+.one{
+  background-position: center;
+  background-size: cover;
+    background-image: url(images/nasa-Q1p7bh3SHj8-unsplash.jpg);
+
+}
+.two{
+  background-color: black;
+}
+.student {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.student_name{
+  font-family: sans-serif;
+  font-size: 50px;
+  animation: fadeIn 25s;
+}
+.space{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.student_ID {
+  font-family: sans-serif;
+  font-size: 50px;
+  animation: fadeIn 20s;
+  margin-top: 10px; /* Add some spacing between student_name and student_ID */
+
+
+}
+
+.student_info {
+  font-family: sans-serif;
+  font-size: 50px;
+  animation: fadeIn 20s;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end; /* Align to the right */
+  margin-right: 100px; /* Add some right margin for spacing */ /* adds a space to the right of the element*/
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.highlight{
+  /* color: cornflowerblue; */
+  color: lightblue;
+  /* color: darkslateblue; */
+}
+.header{
+  font-size: 25px;
+  font-family: cursive;
+}
+.centered-text {
+  /* color: darkslateblue; */
+  color: lightblue;
+
+  display: block;
+  text-align: center;
+}
+.three{
+  background-color: black;
+
+}
+.four{
+  background-color: black;
+
+}
+.five{
+  background-color: black;
+
+}
+
+.six{
+  background-position: center;
+  background-size: cover;
+  background-image: url(images/black.png);
+}
+
+
+
+.pa {
+font-size: 15px;
+font-family: sans-serif;
+color: bisque;
+background-color: cadetblue;
+width: 300px;
+height: 300px;
+text-align: center;
+
+}
+
+.li {
+text-align: center;
+
+}
+.bpa {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: bisque;
+  background-color: rgb(142, 178, 190);
+  width: 600px;
+    height: 400px;
+    text-align: center;
+
+  }
+
+
+
+
+
+
+
